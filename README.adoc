@@ -1,0 +1,22 @@
+Based on the SpringBoot REST webservice example app, see https://github.com/spring-guides/gs-rest-service
+
+== What's here
+
+A ridiculously overengineered example app. Why? Because overengineering is funny as long as you do it on purpose :)
+
+The endpoints are 
+----
+http://localhost:8080/greeting
+http://localhost:8080/farewell
+----
+They both have two optional params, `name` and `language`
+
+The app can be run with 
+----
+./gradlew bootRun
+----
+from the Complete directory. The project has been left in the Complete directory to make it easier to diff it with the original example code at https://github.com/spring-guides/gs-rest-service.
+
+== What's missing
+
+No database, no authentication, no rate limiting, no way to add or remove greetings/farewells.
